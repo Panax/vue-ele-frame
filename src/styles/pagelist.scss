@@ -1,0 +1,18 @@
+.pageContainer {
+  height: calc(100vh - 100px);
+  padding: 10px;
+  .pageSearch{
+      display: block;
+      line-height: 30px;
+      margin-bottom: 10px;
+      .searchItem{
+          display: inline-block;
+          min-width: 150px;
+      }
+  }
+  .paginationContainer{
+      line-height: 30px;
+      text-align: right;
+      padding-top: 8px;
+  }
+}
